@@ -1,0 +1,19 @@
+{
+  "name": "skillosa.io",
+  "version": "0.0.1",
+  "description": "cutting age sandbox",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillosa/skillosa.io.git"
+  },
+  "keywords": [
+    "js",
+    "sandbox"
+  ],
+  "author": "skillosa team",
+  "homepage": "https://skillosa.io",
+  "devDependencies": {
+    "express": "^4.12.4"
+  }
+}
