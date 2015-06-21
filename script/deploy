@@ -1,0 +1,10 @@
+#!/bin/sh
+ 
+ssh skillosa@178.62.134.38 <<EOF
+  cd ~/skillosa.io
+  git pull
+  npm install -g gulp
+  npm install
+  nohup service app restart &
+  exit
+EOF
